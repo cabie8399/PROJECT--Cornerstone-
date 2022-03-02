@@ -1,0 +1,12 @@
+## All Non-Dist Directories
+config/
+src/
+test/
+
+## Root Files
+.babelrc
+.eslintignore
+.gitignore
+.jsdocrc
+.travis.yml
+karma.conf.js

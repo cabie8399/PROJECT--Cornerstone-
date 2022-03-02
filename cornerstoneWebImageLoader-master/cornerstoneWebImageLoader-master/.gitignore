@@ -1,0 +1,10 @@
+## Directorties
+coverage/
+dist/
+documentation/
+node_modules/
+
+## Files
+.idea
+.DS_Store
+npm-debug.log

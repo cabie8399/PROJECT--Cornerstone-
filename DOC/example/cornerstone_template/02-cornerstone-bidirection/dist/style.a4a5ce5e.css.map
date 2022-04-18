@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,KACI,sBACJ,CAEA,oBACI,YACJ","file":"style.a4a5ce5e.css","sourceRoot":"..","sourcesContent":["body {\n    font-family: sans-serif;\n}\n\n.cornerstone-canvas {\n    height: 500px;\n}"]}

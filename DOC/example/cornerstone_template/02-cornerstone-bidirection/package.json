@@ -1,0 +1,23 @@
+{
+    "name": "vanilla",
+    "version": "1.0.0",
+    "description": "JavaScript example starter project",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "npx parcel index.html --open",
+        "build": "npx parcel build index.html",
+        "dev": "npm run build && npm run start"
+    },
+    "dependencies": {
+        "cornerstone-core": "^2.6.1",
+        "cornerstone-tools": "^6.0.6"
+    },
+    "devDependencies": {
+        "@babel/core": "7.2.0",
+        "parcel-bundler": "^1.6.1"
+    },
+    "keywords": [
+        "javascript",
+        "starter"
+    ]
+}

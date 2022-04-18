@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/index.b127a4b9.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/cornerstone-core@2.6.1" defer=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/dicom-parser@1.8.11" defer=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/cornerstone-math@0.1.9" defer=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8" defer=""></script>
+    <!-- Depend cornerstone-core/ dicom-parser -->
+    <!-- ! cornerstone-wado-image-loader 4 exist JPEG Lossless dicom bug -->
+    <script src="https://cdn.jsdelivr.net/npm/cornerstone-wado-image-loader@3.3.2" defer=""></script>
+    <!-- Depend cornerstone-core/ cornerstone-math/ hammerjs -->
+    <script src="https://cdn.jsdelivr.net/npm/cornerstone-tools@6.0.6" defer=""></script>
+  </head>
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <section class="section">
+          <div class="container">
+            <h1 class="title is-1">RectangleRoi Tool</h1>
+
+            <div class="buttons mode-buttons">
+              <button class="button set-tool-mode is-primary" data-action="Active">
+                Active
+              </button>
+              <button class="button set-tool-mode" data-action="Passive">
+                Passive
+              </button>
+              <button class="button set-tool-mode" data-action="Enabled">
+                Enable
+              </button>
+              <button class="button set-tool-mode" data-action="Disabled">
+                Disable
+              </button>
+            </div>
+
+            <div class="cornerstone-element-wrapper">
+              <div id="cornerstone-element" class="cornerstone-element" data-index="0" oncontextmenu="return false"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="/index.975ef6c8.js" defer=""></script>
+  </body>
+</html>
